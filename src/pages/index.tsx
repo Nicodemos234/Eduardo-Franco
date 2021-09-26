@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from 'next/head'
 import styled from 'styled-components'
 import { ButtonLamp } from '../components/ButtonLamp'
 import { Navbar } from '../components/Navbar'
@@ -33,6 +34,9 @@ const Home: NextPage = () => {
 
   return (
     <DarkerWrapper light={light}>
+      <Head>
+        <title>Eduardo Franco - UI/UX Designer</title>
+      </Head>
       <Container>
         <Navbar />
         <ContentHome>

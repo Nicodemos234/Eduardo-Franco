@@ -1,20 +1,27 @@
+import Head from 'next/head'
 import type { NextPage } from 'next'
 import { Navbar } from '../components/Navbar'
 import {
   Container,
-  ContentHome,
+  Content,
   MainWrapper,
+  PageTitle,
 } from '../styles/styles'
 
 const Contato: NextPage = () => {
 
   return (
     <MainWrapper>
+      <Head>
+        <title>Contato - Eduardo Franco</title>
+      </Head>
       <Container>
         <Navbar />
-        <ContentHome>
-         Contato
-        </ContentHome>
+        <Content>
+          <PageTitle>
+            Contato
+          </PageTitle>
+        </Content>
       </Container>
     </MainWrapper>
   )

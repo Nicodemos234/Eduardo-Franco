@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto+Condensed&family=Roboto:ital@0;1&family=Rubik:wght@400;700&family=Saira:wght@700&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto+Condensed&family=Roboto:ital@0;1&family=Rubik:wght@400;700&family=Saira:wght@400;700&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />

@@ -8,7 +8,7 @@ export const MainWrapper = styled.div`
   height: 100vh;
 `
 
-export const Container = styled.main`
+export const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,15 @@ export const Container = styled.main`
   max-width: 1169px;
 `
 
-export const ContentHome = styled.div`
+export const Content = styled.main`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+`
+
+export const ContentHome = styled.main`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,4 +97,20 @@ export const DotWrapper = styled.span`
   & > div:first-of-type {
     margin-bottom: -4px !important;
   }
+`
+
+export const PageTitle = styled.h1`
+  font-family: 'Saira';
+  font-weight: bold;
+  font-size: 60px;
+  color: ${({ theme }) => theme.colors.label};
+  line-height: 87%;
+`
+
+export const Wrapper = styled.div`
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 434px;
 `
